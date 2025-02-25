@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interioclub - Interior Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Interioclub</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Interioclub</h1>
+        <p>Transforming Spaces with Elegance & Style</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Interioclub, we specialize in creating beautiful and functional spaces that reflect your style and personality. Our team of expert designers is dedicated to bringing your vision to life.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Residential Interior Design</li>
+            <li>Commercial Space Planning</li>
+            <li>Customized Furniture Design</li>
+            <li>Renovation & Remodeling</li>
+        </ul>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/Project-1.jpeg" alt="Project 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Project-2.jpeg" alt="Project 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Project-3.jpeg" alt="Project 3">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Project-4.jpeg" alt="Project 4">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Project-5.jpeg" alt="Project 4">
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@interioclub.com</p>
+        <p>Phone: +91 87806 41630</p>
+        <p>Shop No. 5, Shivam Complex , Lati Plot-5, B/H. Patel Transport, Morbi.Gujarat(India)</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Interioclub. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
